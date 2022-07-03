@@ -86,3 +86,47 @@ header {
 	display: block;
 	width: 100%;
 }
+
+@media screen and (max-width: 600px) {
+	header {
+		padding: 10px 0px 0px 0px;
+		flex-direction: column;
+	}
+
+	.header-logo {
+		text-align: center;
+	}
+
+	.header-links-container {
+		flex-direction: column;
+		padding: 10px 0px 0px 0px;
+	}
+
+	.header-link-text {
+		text-align: center;
+		padding: 5px;
+	}
+
+	.banner {
+		flex-direction: column;
+		padding: 0px 25px 15px 25px;
+	}
+	
+	.banner-info {
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.banner-info p {
+		text-justify: left;
+		text-align: justify;
+	}
+
+	.banner-image {
+		justify-content: center;
+	}
+
+	.bigSurImage {
+		width: 100%;
+	}
+}
