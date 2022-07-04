@@ -82,11 +82,6 @@ header {
 	max-width: 550px;
 }
 
-.bigSurImage {
-	display: block;
-	width: 100%;
-}
-
 @media screen and (max-width: 600px) {
 	header {
 		padding: 10px 0px 0px 0px;
@@ -119,15 +114,10 @@ header {
 	}
 
 	.banner-info p {
-		text-justify: left;
 		text-align: justify;
 	}
 
 	.banner-image {
 		justify-content: center;
-	}
-
-	.bigSurImage {
-		width: 100%;
 	}
 }
