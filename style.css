@@ -91,8 +91,6 @@ header {
 /* middle section */
 
 .middle-section {
-	display: flex;
-	flex-direction: column;
 	text-align: center;
 	padding: 0 14rem; 
 }
@@ -105,23 +103,28 @@ header {
 .middle-section-cards {
 	display: flex;
 	justify-content: center;
-	padding: 0 17rem;
-}
-
-.middle-section-card {
-	padding: 0 1.7rem;
+	align-items: center;
 }
 
 .card-image {
-	width: 11rem;
-	height: 11rem;
+	width: 13vw;
+	height: 13vw;
+	margin: 0 auto;
 	border: .3rem solid #3882f6;
 	border-radius: 1.2rem;
 }
 
 .middle-section-card p {
+	width: 13vw;
+	margin: 0 auto;
 	font-size: 1.2rem;
 	color: #666;
+}
+
+/* quote-section */
+
+.quote-section {
+	background-color: #e5e7eb;
 }
 
 @media screen and (max-width: 600px) {
