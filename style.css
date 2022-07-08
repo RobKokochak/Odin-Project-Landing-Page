@@ -144,6 +144,50 @@ header {
 	padding-right: 2.7rem;
 }
 
+/* call to action */
+
+.call-to-a-section {
+	display: flex;
+}
+
+.call-to-a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3.3rem 7rem;
+	background-color: #3882F6;
+	margin: 7rem 14rem;
+	border-radius: .6vw;
+}
+
+.call-to-a .text-col {
+	color: #e5e7eb;
+	max-width: fit-content;
+}
+
+.call-to-a .text-col h3 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.call-to-a .text-col p {
+	font-size: 1.15rem;
+	font-weight: 200;
+}
+
+.call-to-a button {
+	font-size: 1.1rem;
+	font-weight: 600;
+	background-color: #3882F6;
+	color: #E5E7EB;
+	width: 8rem;
+	height: 2.25rem;
+	border: .1rem solid #e5e7eb;
+	border-radius: .5rem;
+}
+
+/* mobile */
+
 @media screen and (max-width: 600px) {
 	header {
 		padding: 10px 0px 0px 0px;
